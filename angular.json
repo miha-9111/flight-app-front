@@ -104,9 +104,21 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "flight-app-front"
+  "defaultProject": "flight-app-front",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
