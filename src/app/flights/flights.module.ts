@@ -4,7 +4,6 @@ import { FlightsComponent } from './flights.component';
 import { FlightComponent } from '../components/flight/flight.component';
 
 
-
 @NgModule({
   declarations: [
     FlightsComponent,
@@ -18,4 +17,5 @@ import { FlightComponent } from '../components/flight/flight.component';
   ],
   providers: []
 })
-export class FlightsModule { }
+export class FlightsModule {
+}
